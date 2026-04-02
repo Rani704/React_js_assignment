@@ -5,7 +5,12 @@
 This project is a **Knowledge Base Dashboard UI** built using **React + Tailwind CSS**.  
 It allows users to view, search, and create knowledge base entries through a clean and responsive interface.
 
----
+
+
+## Demo Video
+
+Watch the demo here: [Project Demo](https://drive.google.com/file/d/1ZvVmeBGBiL3mu12o1FDb4wCNiWxCoJ0X/view?usp=sharing)
+
 
 ## ✨ Features
 
