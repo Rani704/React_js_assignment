@@ -27,39 +27,35 @@ It allows users to view, search, and create knowledge base entries through a cle
 - **React Router DOM**
 
 ---
-
 ## 📁 Folder Structure
 
-src/
+```
+src
+├── components
+│   ├── Pages
+│   │   └── CreateKnowledgeBaseForm.jsx
+│   │
+│   ├── Navbar.jsx
+│   ├── Sidebar.jsx
+│   ├── MainContent.jsx
+│   ├── LeftContent.jsx
+│   ├── RightContent.jsx
+│   ├── Card.jsx
+│   ├── Footer.jsx
+│   ├── CreateButton.jsx
+│   ├── MyProject.jsx
+│   ├── Orchestrator.jsx
+│   └── Admin.jsx
 │
-├── components/
-│ ├── Pages/
-│ │ └── CreateKnowledgeBaseForm.jsx
-│ │
-│ ├── Navbar.jsx
-│ ├── Sidebar.jsx
-│ ├── MainContent.jsx
-│ ├── LeftContent.jsx
-│ ├── RightContent.jsx
-│ ├── Card.jsx
-│ ├── Footer.jsx
-│ ├── CreateButton.jsx
-│ ├── MyProject.jsx
-│ ├── Orchestrator.jsx
-│ └── Admin.jsx
+├── config
+│   └── sidebarConfig.js
 │
-├── config/
-│ └── sidebarConfig.js
-│
-├── assets/
-│ └── (images, logos)
+├── assets
+│   └── (images, logos)
 │
 ├── App.js
 └── index.js
-
-
----
-
+```
 ## 🧠 Application Flow
 
 1. **Navbar**
@@ -129,15 +125,15 @@ npm install
 npm run dev
 
 ⚙️ Key Implementation Details
-Sidebar is config-driven using sidebarConfig.js
-Used Flexbox + Tailwind CSS for layout
-Implemented responsive design with breakpoints
-Managed UI state using React Hooks (useState)
-Drawer implemented using CSS transform transitions
-Layout structured using:
-h-screen
-flex
-overflow handling
+- Sidebar is config-driven using sidebarConfig.js
+- Used Flexbox + Tailwind CSS for layout
+- Implemented responsive design with breakpoints
+- Managed UI state using React Hooks (useState)
+- Drawer implemented using CSS transform transitions
+- Layout structured using:
+- h-screen
+- flex
+- overflow handling
 
 🚧 Improvements (Future Scope)
 🔗 API Integration (CRUD operations)
@@ -145,8 +141,8 @@ overflow handling
 📊 Dynamic Pagination
 🧠 Search Optimization
 🎨 UI Enhancements & Animations
-🙌 Author
 
+🙌 Author
 Rani
 
 📌 Notes
